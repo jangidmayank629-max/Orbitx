@@ -1,0 +1,48 @@
+{
+  "version": 3,
+  "middleware": {},
+  "functions": {
+    "/opengraph-image/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/opengraph-image/route.js"
+      ],
+      "name": "app/opengraph-image/route",
+      "page": "/opengraph-image/route",
+      "matchers": [
+        {
+          "regexp": "^/opengraph\\-image$",
+          "originalSource": "/opengraph-image"
+        }
+      ],
+      "wasm": [
+        {
+          "name": "wasm_77d9faebf7af9e421806970ce10a58e9d83116d7",
+          "filePath": "server/edge-chunks/wasm_77d9faebf7af9e421806970ce10a58e9d83116d7.wasm"
+        },
+        {
+          "name": "wasm_ef4866ecae192fd87727067cf2c0c0cf9fb8b020",
+          "filePath": "server/edge-chunks/wasm_ef4866ecae192fd87727067cf2c0c0cf9fb8b020.wasm"
+        }
+      ],
+      "assets": [
+        {
+          "name": "noto-sans-v27-latin-regular.5dda3fca77107598.ttf",
+          "filePath": "server/edge-chunks/asset_noto-sans-v27-latin-regular.5dda3fca77107598.ttf"
+        }
+      ],
+      "env": {
+        "__NEXT_BUILD_ID": "a2WRbm59ax5WJcWSkcaMX",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "LzheZDO4ezNQUuNPKnAQWN1dvOc5q31Feq31vKX5gFc=",
+        "__NEXT_PREVIEW_MODE_ID": "c638acbd817018fa9686d8bd6554572c",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "c448ef2d6d8707238e3794fda885dc779bd88b7ba4637e4b0c3e0429ea03eeff",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "5925a8a914d7b7b2ddd9925c8d6ace9aad104bf36f8823dae556555b71d8ab9b"
+      }
+    }
+  },
+  "sortedMiddleware": []
+}

@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/private
+Disallow: /admin
+
+Host: https://orbitxmarketing.com
+Sitemap: https://orbitxmarketing.com/sitemap.xml
