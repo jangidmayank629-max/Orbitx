@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary: #d0bcff;
+  --on-primary: #3c0091;
+  --secondary: #4cd7f6;
+  --surface: #0A0A0C;
+  --on-surface: #e5e1e4;
+  --on-surface-variant: #cbc3d7;
+  --surface-container-high: #2a2a2c;
+}
+
+body {
+  background-color: #0A0A0C;
+  color: #e5e1e4;
+  overflow-x: hidden;
+}
+
+.glass-card {
+  background: rgba(19, 19, 21, 0.45);
+  backdrop-filter: blur(14px);
+}
